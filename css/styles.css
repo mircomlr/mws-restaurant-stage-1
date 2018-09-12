@@ -49,7 +49,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   padding: 25px;
   text-align: center;
   text-transform: uppercase;
-  max-width: 45%;
+  max-width: 95%;
 }
 /* ====================== Navigation ====================== */
 nav {
@@ -102,7 +102,7 @@ nav h1 a {
 /* ====================== Map ====================== */
 #map {
   height: 400px;
-  width: 50%;
+  width: 100%;
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
@@ -222,7 +222,7 @@ nav h1 a {
   line-height: 1.1;
 }
 #restaurant-img {
-	width: 40%;
+	width: 45%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -238,7 +238,7 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-  width: 10%;
+  width: 80%;
 }
 #restaurant-container, #reviews-container, .reviews-form {
   border-bottom: 1px solid #d9d9d9;
@@ -251,11 +251,11 @@ nav h1 a {
 #restaurant-container {
   display: flex;
   flex-direction: column;
-  width: 10%;
+  width: 80%;
 }
 #reviews-container {
   padding: 30px 40px 80px;
-  width: 10%;
+  width: 80%;
 }
 #reviews-container h2 {
   color: #f58500;
@@ -270,7 +270,7 @@ nav h1 a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 10%;
+  width: 90%;
 }
 #reviews-list li {
   background-color: #fff;
@@ -283,7 +283,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 25%;
+  width: 75%;
   border-radius: 20px 20px 20px 20px;
 }
 #reviews-list li p {
